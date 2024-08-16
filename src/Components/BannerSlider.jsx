@@ -40,8 +40,7 @@ const BannerSlider = () => {
         <SwiperSlide><img className='lg:h-[45vw] md:h-[68vw] h-[85vw] w-full object-cover object-center' src={one} alt="image" /></SwiperSlide>
         <SwiperSlide><img className='lg:h-[45vw] md:h-[68vw] h-[85vw] w-full object-cover object-center' src={two} alt="image" /></SwiperSlide>
         <SwiperSlide><img className='lg:h-[45vw] md:h-[68vw] h-[85vw] w-full object-cover object-center' src={three} alt="image" /></SwiperSlide>
-        {/* <SwiperSlide><img className='lg:h-[45vw] md:h-[68vw] h-[85vw] w-full object-cover object-center' src={four} alt="image" /></SwiperSlide>
-        <SwiperSlide><img className='lg:h-[45vw] md:h-[68vw] h-[85vw] w-full object-cover object-bottom' src={five} alt="image" /></SwiperSlide> */}
+      
       </Swiper>
       <div className='text-[8vw] md:text-[4.5vw] text-[#000000] absolute bottom-[42%] md:bottom-[55%] right-[21%] md:right-[36%] z-10 font-semibold drop-shadow-2xl rounded-sm'><p className=''>
 
