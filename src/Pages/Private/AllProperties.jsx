@@ -13,7 +13,7 @@ const AllProperties = () => {
 
     const axiosPublic = useAxiosPublic();
     const [itemsPerPage, setItemsPerPage] = useState(9);
-    const [currentPage, setCurrentPage] = useState(0);  
+    const [currentPage, setCurrentPage] = useState(0);
     const { count } = useLoaderData();
     const numberOfPages = Math.ceil(count / itemsPerPage);
     const pages = [...Array(numberOfPages).keys()];
@@ -176,6 +176,7 @@ const AllProperties = () => {
                 ))}
             </div>
 
+            
             {/* Pagination */}
             <div className="text-center text-white my-6">
                 <button onClick={handlePrevPage} className="m-1 bg-[#000000] px-3 py-1 rounded-sm">Prev</button>
