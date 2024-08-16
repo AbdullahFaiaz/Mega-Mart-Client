@@ -57,7 +57,7 @@ const router = createBrowserRouter([
       {
         path: "/allProperties",
         element: <PrivateRoute><AllProperties/></PrivateRoute>,
-        loader: () => fetch("http://localhost:5000/postCount")
+        loader: () => fetch("http://localhost:5000/productCount")
       },
       {
         path: "/propertyDetails/:id",
