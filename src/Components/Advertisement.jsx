@@ -117,7 +117,7 @@ delaySpeed={2000}
             </p>                
         </div>
         <div className="p-[10px]">
-            <Link to={`/propertyDetails/${property._id}`}>
+            <Link to={`/productDetails/${property._id}`}>
             <button  className="text-[8px] md:text-[15px] bg-black btn btn-sm text-white hover:text-black rounded">
                 View Details
             </button>

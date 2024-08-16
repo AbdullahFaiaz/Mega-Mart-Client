@@ -351,7 +351,7 @@ const AllProperties = () => {
                             </p>
                         </div>
                         <div className="px-[20px]">
-                            <Link to={`/details/${property._id}`}>
+                            <Link to={`/productDetails/${property._id}`}>
                                 <button className="text-[9px] my-4 md:text-[16px] bg-black text-white hover:text-black font-bold btn btn-sm rounded">
                                     View Details
                                 </button>

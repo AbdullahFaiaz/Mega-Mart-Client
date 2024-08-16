@@ -23,7 +23,7 @@ const Details = () => {
     const {data: property, refetch:refetchPropertyDetails} = useQuery({
         queryKey: ['propertyDetails'],
         queryFn: async () => {
-            const res = await axiosSecure.get(`/allProperties/details?id=${params.id}`)
+            const res = await axiosSecure.get(`/productDetails?id=${params.id}`)
             return res.data
         }, enabled: !! localStorage.getItem('access-token')
     })
